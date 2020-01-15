@@ -9,13 +9,37 @@
 /* Begin PBXBuildFile section */
 		E4F6248A23CF32CF003EDF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6248923CF32CF003EDF4A /* AppDelegate.swift */; };
 		E4F6248C23CF32CF003EDF4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6248B23CF32CF003EDF4A /* SceneDelegate.swift */; };
-		E4F6248E23CF32CF003EDF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6248D23CF32CF003EDF4A /* ViewController.swift */; };
-		E4F6249123CF32CF003EDF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F6248F23CF32CF003EDF4A /* Main.storyboard */; };
-		E4F6249423CF32CF003EDF4A /* LeBonCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4F6249223CF32CF003EDF4A /* LeBonCoin.xcdatamodeld */; };
 		E4F6249623CF32D1003EDF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6249523CF32D1003EDF4A /* Assets.xcassets */; };
 		E4F6249923CF32D1003EDF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F6249723CF32D1003EDF4A /* LaunchScreen.storyboard */; };
 		E4F624A423CF32D1003EDF4A /* LeBonCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624A323CF32D1003EDF4A /* LeBonCoinTests.swift */; };
 		E4F624AF23CF32D2003EDF4A /* LeBonCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624AE23CF32D2003EDF4A /* LeBonCoinUITests.swift */; };
+		E4F624C623CF3445003EDF4A /* LeBonCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4F624C423CF3445003EDF4A /* LeBonCoin.xcdatamodeld */; };
+		E4F624CE23CF3453003EDF4A /* Cloudiness+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624C723CF3453003EDF4A /* Cloudiness+CoreDataProperties.swift */; };
+		E4F624CF23CF3453003EDF4A /* Wind+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624C823CF3453003EDF4A /* Wind+CoreDataProperties.swift */; };
+		E4F624D023CF3453003EDF4A /* Degree+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624C923CF3453003EDF4A /* Degree+CoreDataProperties.swift */; };
+		E4F624D123CF3453003EDF4A /* Pression+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624CA23CF3453003EDF4A /* Pression+CoreDataProperties.swift */; };
+		E4F624D223CF3453003EDF4A /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624CB23CF3453003EDF4A /* Location+CoreDataProperties.swift */; };
+		E4F624D323CF3453003EDF4A /* Temperature+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624CC23CF3453003EDF4A /* Temperature+CoreDataProperties.swift */; };
+		E4F624D423CF3453003EDF4A /* Temperatures+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624CD23CF3453003EDF4A /* Temperatures+CoreDataProperties.swift */; };
+		E4F624DC23CF3460003EDF4A /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624D523CF345F003EDF4A /* Location+CoreDataClass.swift */; };
+		E4F624DD23CF3460003EDF4A /* Temperature+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624D623CF345F003EDF4A /* Temperature+CoreDataClass.swift */; };
+		E4F624DE23CF3460003EDF4A /* Degree+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624D723CF345F003EDF4A /* Degree+CoreDataClass.swift */; };
+		E4F624DF23CF3460003EDF4A /* Pression+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624D823CF345F003EDF4A /* Pression+CoreDataClass.swift */; };
+		E4F624E023CF3460003EDF4A /* Temperatures+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624D923CF3460003EDF4A /* Temperatures+CoreDataClass.swift */; };
+		E4F624E123CF3460003EDF4A /* Wind+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624DA23CF3460003EDF4A /* Wind+CoreDataClass.swift */; };
+		E4F624E223CF3460003EDF4A /* Cloudiness+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624DB23CF3460003EDF4A /* Cloudiness+CoreDataClass.swift */; };
+		E4F624E923CF346D003EDF4A /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E323CF346D003EDF4A /* PersistanceService.swift */; };
+		E4F624EA23CF346D003EDF4A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E423CF346D003EDF4A /* APIService.swift */; };
+		E4F624EB23CF346D003EDF4A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E523CF346D003EDF4A /* Singleton.swift */; };
+		E4F624EC23CF346D003EDF4A /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E623CF346D003EDF4A /* APIServiceError.swift */; };
+		E4F624ED23CF346D003EDF4A /* UserLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E723CF346D003EDF4A /* UserLocationResponse.swift */; };
+		E4F624EE23CF346D003EDF4A /* UserLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624E823CF346D003EDF4A /* UserLocationService.swift */; };
+		E4F624F323CF3481003EDF4A /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624EF23CF3481003EDF4A /* SplitViewController.swift */; };
+		E4F624F423CF3481003EDF4A /* DetailsTemperaureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */; };
+		E4F624F523CF3481003EDF4A /* TepeturesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */; };
+		E4F624F623CF3481003EDF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F223CF3481003EDF4A /* ViewController.swift */; };
+		E4F624F823CF34A1003EDF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F624F723CF34A1003EDF4A /* Main.storyboard */; };
+		E4F624FA23CF34C5003EDF4A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F923CF34C5003EDF4A /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +63,6 @@
 		E4F6248623CF32CF003EDF4A /* LeBonCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6248923CF32CF003EDF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F6248B23CF32CF003EDF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E4F6248D23CF32CF003EDF4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4F6249023CF32CF003EDF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4F6249323CF32CF003EDF4A /* LeBonCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeBonCoin.xcdatamodel; sourceTree = "<group>"; };
 		E4F6249523CF32D1003EDF4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4F6249823CF32D1003EDF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4F6249A23CF32D1003EDF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +72,33 @@
 		E4F624AA23CF32D2003EDF4A /* LeBonCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeBonCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F624AE23CF32D2003EDF4A /* LeBonCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeBonCoinUITests.swift; sourceTree = "<group>"; };
 		E4F624B023CF32D2003EDF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F624C523CF3445003EDF4A /* LeBonCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeBonCoin.xcdatamodel; sourceTree = "<group>"; };
+		E4F624C723CF3453003EDF4A /* Cloudiness+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cloudiness+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624C823CF3453003EDF4A /* Wind+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wind+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624C923CF3453003EDF4A /* Degree+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Degree+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624CA23CF3453003EDF4A /* Pression+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pression+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624CB23CF3453003EDF4A /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624CC23CF3453003EDF4A /* Temperature+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Temperature+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624CD23CF3453003EDF4A /* Temperatures+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Temperatures+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E4F624D523CF345F003EDF4A /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624D623CF345F003EDF4A /* Temperature+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Temperature+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624D723CF345F003EDF4A /* Degree+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Degree+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624D823CF345F003EDF4A /* Pression+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pression+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624D923CF3460003EDF4A /* Temperatures+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Temperatures+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624DA23CF3460003EDF4A /* Wind+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wind+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624DB23CF3460003EDF4A /* Cloudiness+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cloudiness+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E4F624E323CF346D003EDF4A /* PersistanceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
+		E4F624E423CF346D003EDF4A /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E4F624E523CF346D003EDF4A /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		E4F624E623CF346D003EDF4A /* APIServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		E4F624E723CF346D003EDF4A /* UserLocationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationResponse.swift; sourceTree = "<group>"; };
+		E4F624E823CF346D003EDF4A /* UserLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationService.swift; sourceTree = "<group>"; };
+		E4F624EF23CF3481003EDF4A /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTemperaureViewController.swift; sourceTree = "<group>"; };
+		E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TepeturesListViewController.swift; sourceTree = "<group>"; };
+		E4F624F223CF3481003EDF4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../LeBonCoin/LeBonCoin/View/ViewController.swift; sourceTree = "<group>"; };
+		E4F624F723CF34A1003EDF4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E4F624F923CF34C5003EDF4A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +149,16 @@
 		E4F6248823CF32CF003EDF4A /* LeBonCoin */ = {
 			isa = PBXGroup;
 			children = (
+				E4F624C023CF3370003EDF4A /* Service */,
+				E4F624BF23CF3361003EDF4A /* Model */,
+				E4F624BD23CF334D003EDF4A /* ViewModel */,
+				E4F624BE23CF3358003EDF4A /* View */,
+				E4F624BC23CF3337003EDF4A /* CoreData */,
 				E4F6248923CF32CF003EDF4A /* AppDelegate.swift */,
 				E4F6248B23CF32CF003EDF4A /* SceneDelegate.swift */,
-				E4F6248D23CF32CF003EDF4A /* ViewController.swift */,
-				E4F6248F23CF32CF003EDF4A /* Main.storyboard */,
 				E4F6249523CF32D1003EDF4A /* Assets.xcassets */,
 				E4F6249723CF32D1003EDF4A /* LaunchScreen.storyboard */,
 				E4F6249A23CF32D1003EDF4A /* Info.plist */,
-				E4F6249223CF32CF003EDF4A /* LeBonCoin.xcdatamodeld */,
 			);
 			path = LeBonCoin;
 			sourceTree = "<group>";
@@ -129,6 +179,68 @@
 				E4F624B023CF32D2003EDF4A /* Info.plist */,
 			);
 			path = LeBonCoinUITests;
+			sourceTree = "<group>";
+		};
+		E4F624BC23CF3337003EDF4A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E4F624C723CF3453003EDF4A /* Cloudiness+CoreDataProperties.swift */,
+				E4F624C923CF3453003EDF4A /* Degree+CoreDataProperties.swift */,
+				E4F624CB23CF3453003EDF4A /* Location+CoreDataProperties.swift */,
+				E4F624CA23CF3453003EDF4A /* Pression+CoreDataProperties.swift */,
+				E4F624CC23CF3453003EDF4A /* Temperature+CoreDataProperties.swift */,
+				E4F624CD23CF3453003EDF4A /* Temperatures+CoreDataProperties.swift */,
+				E4F624C823CF3453003EDF4A /* Wind+CoreDataProperties.swift */,
+				E4F624C423CF3445003EDF4A /* LeBonCoin.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E4F624BD23CF334D003EDF4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E4F624F923CF34C5003EDF4A /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E4F624BE23CF3358003EDF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */,
+				E4F624EF23CF3481003EDF4A /* SplitViewController.swift */,
+				E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */,
+				E4F624F223CF3481003EDF4A /* ViewController.swift */,
+				E4F624F723CF34A1003EDF4A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4F624BF23CF3361003EDF4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4F624DB23CF3460003EDF4A /* Cloudiness+CoreDataClass.swift */,
+				E4F624D723CF345F003EDF4A /* Degree+CoreDataClass.swift */,
+				E4F624D523CF345F003EDF4A /* Location+CoreDataClass.swift */,
+				E4F624D823CF345F003EDF4A /* Pression+CoreDataClass.swift */,
+				E4F624D623CF345F003EDF4A /* Temperature+CoreDataClass.swift */,
+				E4F624D923CF3460003EDF4A /* Temperatures+CoreDataClass.swift */,
+				E4F624DA23CF3460003EDF4A /* Wind+CoreDataClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4F624C023CF3370003EDF4A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E4F624E323CF346D003EDF4A /* PersistanceService.swift */,
+				E4F624E423CF346D003EDF4A /* APIService.swift */,
+				E4F624E623CF346D003EDF4A /* APIServiceError.swift */,
+				E4F624E523CF346D003EDF4A /* Singleton.swift */,
+				E4F624E723CF346D003EDF4A /* UserLocationResponse.swift */,
+				E4F624E823CF346D003EDF4A /* UserLocationService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +347,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F624F823CF34A1003EDF4A /* Main.storyboard in Resources */,
 				E4F6249923CF32D1003EDF4A /* LaunchScreen.storyboard in Resources */,
 				E4F6249623CF32D1003EDF4A /* Assets.xcassets in Resources */,
-				E4F6249123CF32CF003EDF4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +374,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F6248E23CF32CF003EDF4A /* ViewController.swift in Sources */,
+				E4F624E023CF3460003EDF4A /* Temperatures+CoreDataClass.swift in Sources */,
+				E4F624EB23CF346D003EDF4A /* Singleton.swift in Sources */,
+				E4F624DC23CF3460003EDF4A /* Location+CoreDataClass.swift in Sources */,
+				E4F624DD23CF3460003EDF4A /* Temperature+CoreDataClass.swift in Sources */,
+				E4F624CF23CF3453003EDF4A /* Wind+CoreDataProperties.swift in Sources */,
 				E4F6248A23CF32CF003EDF4A /* AppDelegate.swift in Sources */,
+				E4F624EA23CF346D003EDF4A /* APIService.swift in Sources */,
+				E4F624FA23CF34C5003EDF4A /* MainViewModel.swift in Sources */,
+				E4F624CE23CF3453003EDF4A /* Cloudiness+CoreDataProperties.swift in Sources */,
+				E4F624F423CF3481003EDF4A /* DetailsTemperaureViewController.swift in Sources */,
 				E4F6248C23CF32CF003EDF4A /* SceneDelegate.swift in Sources */,
-				E4F6249423CF32CF003EDF4A /* LeBonCoin.xcdatamodeld in Sources */,
+				E4F624F323CF3481003EDF4A /* SplitViewController.swift in Sources */,
+				E4F624E223CF3460003EDF4A /* Cloudiness+CoreDataClass.swift in Sources */,
+				E4F624E923CF346D003EDF4A /* PersistanceService.swift in Sources */,
+				E4F624DF23CF3460003EDF4A /* Pression+CoreDataClass.swift in Sources */,
+				E4F624ED23CF346D003EDF4A /* UserLocationResponse.swift in Sources */,
+				E4F624D223CF3453003EDF4A /* Location+CoreDataProperties.swift in Sources */,
+				E4F624E123CF3460003EDF4A /* Wind+CoreDataClass.swift in Sources */,
+				E4F624F623CF3481003EDF4A /* ViewController.swift in Sources */,
+				E4F624D023CF3453003EDF4A /* Degree+CoreDataProperties.swift in Sources */,
+				E4F624F523CF3481003EDF4A /* TepeturesListViewController.swift in Sources */,
+				E4F624D123CF3453003EDF4A /* Pression+CoreDataProperties.swift in Sources */,
+				E4F624D423CF3453003EDF4A /* Temperatures+CoreDataProperties.swift in Sources */,
+				E4F624DE23CF3460003EDF4A /* Degree+CoreDataClass.swift in Sources */,
+				E4F624D323CF3453003EDF4A /* Temperature+CoreDataProperties.swift in Sources */,
+				E4F624EE23CF346D003EDF4A /* UserLocationService.swift in Sources */,
+				E4F624C623CF3445003EDF4A /* LeBonCoin.xcdatamodeld in Sources */,
+				E4F624EC23CF346D003EDF4A /* APIServiceError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4F6248F23CF32CF003EDF4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4F6249023CF32CF003EDF4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4F6249723CF32D1003EDF4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -590,13 +718,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E4F6249223CF32CF003EDF4A /* LeBonCoin.xcdatamodeld */ = {
+		E4F624C423CF3445003EDF4A /* LeBonCoin.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E4F6249323CF32CF003EDF4A /* LeBonCoin.xcdatamodel */,
+				E4F624C523CF3445003EDF4A /* LeBonCoin.xcdatamodel */,
 			);
-			currentVersion = E4F6249323CF32CF003EDF4A /* LeBonCoin.xcdatamodel */;
-			path = LeBonCoin.xcdatamodeld;
+			currentVersion = E4F624C523CF3445003EDF4A /* LeBonCoin.xcdatamodel */;
+			name = LeBonCoin.xcdatamodeld;
+			path = ../../../../LeBonCoin/LeBonCoin/CoreData/LeBonCoin.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
