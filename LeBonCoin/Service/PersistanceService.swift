@@ -18,7 +18,6 @@ class PersistanceService {
       
     init() {
     }
-    
     static var childContext: NSManagedObjectContext?{
         let childContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
         childContext.parent = context
@@ -56,7 +55,6 @@ class PersistanceService {
         // MARK: - Core Data Saving support
 
     static func saveContext (context : NSManagedObjectContext){
-//            let context = persistentContainer.viewContext
             if context.hasChanges {
                 do {
                     try context.save()
@@ -74,7 +72,7 @@ class PersistanceService {
     func fetchTemperaturesWithCity(city : String) -> [Temperatures]?{
         do {
             let fetchRequest : NSFetchRequest<Temperatures> = Temperatures.fetchRequestTemperatures()
-            fetchRequest.predicate = NSPredicate(format: "location.city == %@", city)
+            fetchRequest.predicate = NSPredicate(format: "location.city == %@", city.lowercased())
             return try PersistanceService.context!.fetch(fetchRequest)
             }
         catch {

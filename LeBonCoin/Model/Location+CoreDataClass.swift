@@ -40,7 +40,7 @@ public class Location: NSManagedObject, Decodable {
                 
                 self.lat = (try container.decodeIfPresent(Double.self, forKey: .lat) ?? 0)
                 self.long = (try container.decodeIfPresent(Double.self, forKey: .long) ?? 0)
-                self.city = try container.decodeIfPresent(String.self, forKey: .city)
+                self.city = try container.decodeIfPresent(String.self, forKey: .city)?.lowercased()
                 self.location = try container.decodeIfPresent(Temperatures.self, forKey: .location)
 
              }

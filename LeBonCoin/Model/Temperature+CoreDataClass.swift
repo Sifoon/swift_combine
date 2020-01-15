@@ -74,7 +74,6 @@ public class Temperature: NSManagedObject, Decodable {
            self.isoZero = Int32(try (container.decodeIfPresent(Int.self, forKey: .isoZero) ?? 0))
            self.rain = try (container.decodeIfPresent(Float.self, forKey: .rain) ?? 0.0)
            self.snowRisk = try container.decode(String.self, forKey: .snowRisk) == "oui" ? true : false
-           //self.snowRisk = try (container.decodeIfPresent(Bool.self, forKey: .snowRisk) ?? false)
 
            self.cloudiness = try container.decodeIfPresent(Cloudiness.self, forKey: .cloudiness)
            self.degree = try container.decodeIfPresent(Degree.self, forKey: .degree)
