@@ -24,7 +24,6 @@ final class APIService: APIServiceType {
 
     func response() -> AnyPublisher<Data, APIServiceError>  {
     
-       // let pathURL = URL(string: request.path, relativeTo: baseURL)!
         let pathURL = URL(string: "https://www.infoclimat.fr/public-api/gfs/json?_ll=\(self.location.lat),\(self.location.long)&_auth=BhxRRg9xV3VTflFmUyVXflQ8ATQAdgYhBHgEZ104USxUP1Q1AmJRN14wB3oPIAUzVXhTMA80CDgLYAd%2FAHJQMQZsUT0PZFcwUzxRNFN8V3xUYgFiADYGOgRgBHxdL1E7VDVULgJoUTNeLwdkDz0FNVV4UzIPMwgxC3cHfwBsUDYGYlE9D2xXMFM9UTFTYFdmVHgBfgA6BmsEZwQ1XTJRNFRmVDMCM1ExXmAHNw9qBTZVeFM2DzIINgtoB2YAblA3BmRRKg9zV0xTT1EuUyNXIVQyAScAIgZrBDkENw%3D%3D&_c=ae08e25263c63bd99c4a52177fb7d20e")!
         
         

@@ -23,7 +23,7 @@ class TepeturesListViewController: UITableViewController {
         super.viewDidLoad()
 
         temperatures = Singleton.shared.temperatures
-        self.title = temperatures?.location?.city?.capitalized
+        self.title = temperatures?.location?.city?.capitalized != "Unknown" ? temperatures?.location?.city?.capitalized : "France"
              
     }
     

@@ -27,7 +27,6 @@ class MainViewModel : ObservableObject {
             self.userLocation = userLocation
             getGeoLocalisation()
 
-           
        }
 
     func getGeoLocalisation () {
