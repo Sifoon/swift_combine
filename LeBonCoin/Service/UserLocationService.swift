@@ -44,14 +44,14 @@ class UserLocationService : NSObject, CLLocationManagerDelegate{
                     subject.send(ulr)
                 break
           case .denied, .restricted:
-                let ulr = UserLocationResponse(authorization: UserLocationAuthorization.notAuthorized, location: self.location)
-                    subject.send(ulr)
+                    let ulr = UserLocationResponse(authorization: UserLocationAuthorization.notAuthorized, location: self.location)
+                        subject.send(ulr)
                 break
           case .authorizedAlways, .authorizedWhenInUse:
             
               break
           @unknown default:
-                let ulr = UserLocationResponse(authorization:           UserLocationAuthorization.notAuthorized, location: self.location)
+                    let ulr = UserLocationResponse(authorization:  UserLocationAuthorization.notAuthorized, location: self.location)
                     subject.send(ulr)
         }
         
@@ -82,6 +82,9 @@ class UserLocationService : NSObject, CLLocationManagerDelegate{
                                             self.location.long = location.coordinate.longitude
                                             self.location.city = city
                                             ulr.authorization = .authorized
+                                            self.subject.send(ulr)
+                                            self.subject.send(completion: .finished)
+
                                        }
                                    }
                 } else {
@@ -89,9 +92,9 @@ class UserLocationService : NSObject, CLLocationManagerDelegate{
                     self.location.lat = location.coordinate.latitude
                     self.location.long = location.coordinate.longitude
                     ulr.authorization = .couldntReverseGeoloc
+                    self.subject.send(ulr)
                 }
-                self.subject.send(ulr)
-                self.subject.send(completion: .finished)
+                
                 
                
             })
