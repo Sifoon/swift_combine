@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cloudiness" representedClassName="Cloudiness" syncable="YES">
+        <attribute name="average" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="hight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="low" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="total" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="cloudiness" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperature" inverseName="cloudiness" inverseEntity="Temperature"/>
+    </entity>
+    <entity name="Degree" representedClassName="Degree" syncable="YES">
+        <attribute name="ground" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp2M" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp500HPa" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="temp850HPa" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="degree" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperature" inverseName="degree" inverseEntity="Temperature"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="long" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperatures" inverseName="location" inverseEntity="Temperatures"/>
+    </entity>
+    <entity name="Pression" representedClassName="Pression" syncable="YES">
+        <attribute name="seaLevel" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="pression" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperature" inverseName="pression" inverseEntity="Temperature"/>
+    </entity>
+    <entity name="Temperature" representedClassName="Temperature" syncable="YES">
+        <attribute name="cape" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="convectiveRain" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="humidity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="isoZero" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rain" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="snowRisk" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="cloudiness" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cloudiness" inverseName="cloudiness" inverseEntity="Cloudiness"/>
+        <relationship name="degree" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Degree" inverseName="degree" inverseEntity="Degree"/>
+        <relationship name="pression" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pression" inverseName="pression" inverseEntity="Pression"/>
+        <relationship name="tempetures" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperatures" inverseName="temperatures" inverseEntity="Temperatures"/>
+        <relationship name="wind" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Wind" inverseName="wind" inverseEntity="Wind"/>
+    </entity>
+    <entity name="Temperatures" representedClassName="Temperatures" syncable="YES">
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="location" inverseEntity="Location"/>
+        <relationship name="temperatures" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Temperature" inverseName="tempetures" inverseEntity="Temperature"/>
+    </entity>
+    <entity name="Wind" representedClassName="Wind" syncable="YES">
+        <attribute name="mediumWins" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="windDirection" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="windGusts" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="wind" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Temperature" inverseName="wind" inverseEntity="Temperature"/>
+    </entity>
+    <elements>
+        <element name="Cloudiness" positionX="148.20703125" positionY="-188.47265625" width="128" height="118"/>
+        <element name="Degree" positionX="171.953125" positionY="-36.2265625" width="128" height="118"/>
+        <element name="Location" positionX="-297" positionY="-36" width="128" height="103"/>
+        <element name="Pression" positionX="156.46484375" positionY="95.51171875" width="128" height="73"/>
+        <element name="Temperature" positionX="-240.87890625" positionY="-27.27734375" width="128" height="223"/>
+        <element name="Temperatures" positionX="1.265625" positionY="222.13671875" width="128" height="73"/>
+        <element name="Wind" positionX="-504.47265625" positionY="117.58203125" width="128" height="103"/>
+    </elements>
 </model>
