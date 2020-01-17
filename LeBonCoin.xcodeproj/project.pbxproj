@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E498ED8823D1F7700029FF9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E498ED8723D1F7700029FF9B /* ViewController.swift */; };
 		E4F6248A23CF32CF003EDF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6248923CF32CF003EDF4A /* AppDelegate.swift */; };
 		E4F6248C23CF32CF003EDF4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6248B23CF32CF003EDF4A /* SceneDelegate.swift */; };
 		E4F6249623CF32D1003EDF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6249523CF32D1003EDF4A /* Assets.xcassets */; };
@@ -37,7 +38,6 @@
 		E4F624F323CF3481003EDF4A /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624EF23CF3481003EDF4A /* SplitViewController.swift */; };
 		E4F624F423CF3481003EDF4A /* DetailsTemperaureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */; };
 		E4F624F523CF3481003EDF4A /* TepeturesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */; };
-		E4F624F623CF3481003EDF4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F223CF3481003EDF4A /* ViewController.swift */; };
 		E4F624F823CF34A1003EDF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F624F723CF34A1003EDF4A /* Main.storyboard */; };
 		E4F624FA23CF34C5003EDF4A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F624F923CF34C5003EDF4A /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E498ED8723D1F7700029FF9B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4F6248623CF32CF003EDF4A /* LeBonCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeBonCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6248923CF32CF003EDF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F6248B23CF32CF003EDF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		E4F624EF23CF3481003EDF4A /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTemperaureViewController.swift; sourceTree = "<group>"; };
 		E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TepeturesListViewController.swift; sourceTree = "<group>"; };
-		E4F624F223CF3481003EDF4A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../LeBonCoin/LeBonCoin/View/ViewController.swift; sourceTree = "<group>"; };
 		E4F624F723CF34A1003EDF4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E4F624F923CF34C5003EDF4A /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,7 +210,7 @@
 				E4F624F023CF3481003EDF4A /* DetailsTemperaureViewController.swift */,
 				E4F624EF23CF3481003EDF4A /* SplitViewController.swift */,
 				E4F624F123CF3481003EDF4A /* TepeturesListViewController.swift */,
-				E4F624F223CF3481003EDF4A /* ViewController.swift */,
+				E498ED8723D1F7700029FF9B /* ViewController.swift */,
 				E4F624F723CF34A1003EDF4A /* Main.storyboard */,
 			);
 			path = View;
@@ -392,8 +392,8 @@
 				E4F624ED23CF346D003EDF4A /* UserLocationResponse.swift in Sources */,
 				E4F624D223CF3453003EDF4A /* Location+CoreDataProperties.swift in Sources */,
 				E4F624E123CF3460003EDF4A /* Wind+CoreDataClass.swift in Sources */,
-				E4F624F623CF3481003EDF4A /* ViewController.swift in Sources */,
 				E4F624D023CF3453003EDF4A /* Degree+CoreDataProperties.swift in Sources */,
+				E498ED8823D1F7700029FF9B /* ViewController.swift in Sources */,
 				E4F624F523CF3481003EDF4A /* TepeturesListViewController.swift in Sources */,
 				E4F624D123CF3453003EDF4A /* Pression+CoreDataProperties.swift in Sources */,
 				E4F624D423CF3453003EDF4A /* Temperatures+CoreDataProperties.swift in Sources */,
