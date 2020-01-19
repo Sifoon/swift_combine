@@ -3,4 +3,4 @@ language: swift
 os: osx
 xcode_project: LeBonCoin.xcodeproj
 xcode_scheme: LeBonCoin
-xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 13
+xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 11
